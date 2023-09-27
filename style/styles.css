@@ -53,7 +53,7 @@ header {
       rgba(225, 72, 239, 0.178) 0%,
       rgba(225, 72, 239, 0.178) 100%
     ),
-    url(../images/fondo1.jpg);
+    url(../images/fondo1-min.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
