@@ -24,7 +24,7 @@
         <nav class="menu-navegacion">
             <a href="./index.html"><img class="iconoflor" src="./images/iconoflor.jpg" alt="icono inicio"></a>
             <a class="listamenu" href="#inicio">INICIO</a>
-            <a class="listamenu" href="#noticias">PROMO OCTUBRE</a>
+            <a class="listamenu" href="#noticias">¡PROMO OCTUBRE!</a>
             <a class="listamenu" href="#acerca">SERVICIOS</a>
             <a class="listamenu" href="#galeria">GALERIA</a>
             <a class="listamenu" href="#contacto">CONTACTO</a>
@@ -48,7 +48,7 @@
             </div>
         </section>
         <section class="services contenedor" id="acerca">
-            <h2 class="subtitulo">Nuestro servicio</h2>
+            <h2 class="subtitulo">Nuestros servicios</h2>
             <div class="contenedor-servicio">
                 <img src="./images/foto1-min.jpg" alt="foto-masaje1">
                 <div class="checklist-servicio">
@@ -83,7 +83,7 @@
         </section>
         <section class="gallery" id="galeria">
             <div class="contenedor">
-                <h2 class="subtitulo">Galeria</h2>
+                <h2 class="subtitulo">Galería</h2>
                 <div class="contenedor-galeria">
                     <img src="./images/1-min.jpg" alt="" class="img-galeria">
                     <img src="./images/2-min.jpg" alt="" class="img-galeria">
@@ -97,12 +97,31 @@
             <img src="./images/close.svg" alt="" class="close">
             <img src="" alt="" class="agregar-imagen">
         </section>
+        <section class="services contenedor" id="noticias">
+            <h2 id="contacto" class="subtitulo">Contacto</h2>
+            <div class="contenedor-noticias">
+                <div class="container">
+                    <form action="procesar.php" method="POST">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+        </section>
         <!-- BOTON UP -->
         <button id="boton_up" class="boton_up">
             <i class="bi bi-caret-up-fill"></i>
         </button>
     </main>
-    <footer id="contacto">
+    <footer>
         <div class="contenedor footer-content">
             <div class="contact-us">
                 <h2 class="brand">Obsidiana Relax</h2>
